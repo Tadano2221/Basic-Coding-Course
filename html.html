@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Online Olympiad Coding Course</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+.bcc {
+  width: 400px;
+  height: 600px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="css.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CSS</a>
+    <a href="js.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Javascript</a>
+    <a href="python.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Python</a>
+    <a href="webhosting.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Web hosting</a>
+    <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">About Me</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Contact</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Scratch</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">YouTube</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Teams</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Email</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Basics</h1>
+      <p>Here, you will learn about making a basic webste, which includes forms, text styles, heading and many more!</p>
+      <h2 class="w3-text-teal">Code explained</h2>
+      <p>This is a basic sample webiste. So, we'll explain how the code works</p>
+      <p>In every HTML file, all the code must be between <code>&lt;html&gt;</code> tags.</p>
+      <p>The title of the tab will be marked by the <code>&lt;title&gt;</code> tag.</p>
+      <h4>Headings</h4>
+      <p>The <code>h1</code>tag is the largest. Following <code>&lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</code>, it gets smaller.</p>
+      <h3>Linking and Lists</h3>
+      <p>We use that <code> &lt;a href = '#'&gt;</code> tag is used for links.</p>
+      <p>The <code>&lt;ol&gt;</code> tag uses numbers to list values, while the <code>&lt;ul&gt;</code> tag uses bulletin points.</p>
+      <p>We use <code>&lt;li&gt;</code> tags to make lists.</p>
+      <h4>Input and forms</h4>
+      <p>We use the <code>&lt;Form&gt;</code> tag to mark that this is a form and we use <code>&lt;select&gt;</code>
+      tags to mark that there will be choices in this section, which are <code>&lt;option&gt;</code> and <code>&lt;input&gt;</code>.</p>
+      <p>There are many types of inputs.</p>
+      <p>The <code>&lt;input&gt;</code> tag is used to create inputs.</p>
+      <p>Different types of inputs include:</p>
+      <ul>
+        <li><code>&lt;input type = 'text'&gt;</code></li>
+        <li><code>&lt;input type = 'checkbox'&gt;</code></li>
+        <li><code>&lt;input type = 'submit'&gt;</code></li>
+        <li><code>&lt;input type = 'email'&gt;</code></li>
+        <li><code>&lt;input type = 'password'&gt;</code></li>
+      </ul>
+      <p>We use the <code>&lt;table&gt;</code> tag to make orgainzed charts and data organisers, such as a calendar.</p>
+      <p>We use the <code>&lt;tr&gt;</code> as number of columns, while the code>&lt;td&gt;</code> is the rows in the columns, meaning that they are rows.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <iframe src='/Users/chitkoko/Desktop/Codingcourse/Codingcourse/index.html' title="BCC" class="bcc">Basic Coding Course</iframe>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Other HTML Codes</h1>
+      <p>For class, it is used to apply css to the applied codes. For id, it also has the same function but the codes are different and the id is the subunit of the class.
+        We use the &lt;class&gt; & &lt;id&gt; tags for the two of them. We either use &lt;h1 class="heading"&gt; or &lt;h3 id="small heading"&gt;.
+      </p>
+      <p>We use two different types of file paths to link to external media such as, images and videos. Relative path is a shorter link, usually in the person's desktop, while the absolute path shows the entire link.
+        We use the &lt;img src='desert.png'&gt; or &lt;iframe src='www.YouTube.com'&gt; tags.
+      </p>
+      <p>A website would look greater if we use the responsive tag. It is used for media to enlarge or shrink, according to the tab size.
+        We use the &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; tag to allow responsive. Then, we use the
+        &lt;style="max-width:100%;height:auto;"&gt;
+      </p>
+      <p>Code can also be defined by several codes, which are:</p>
+      <ul>
+        <li><code>&lt;code&gt;</code> tag to define computer code.</li>
+        <li><code>&lt;kbd&gt;</code> tag to define keyboard input.</li>
+        <li><code>&lt;samp&gt;</code> tag to define computer output.</li>
+        <li><code>&lt;var&gt;</code> tag to define a variable.</li>
+        <li><code>&lt;pre&gt;</code> tag to define preformatted text.</li>
+      </ul>
+      <p>Entity marks cannot be used originally in html, as it mistakes it as code. Here is the chart for the code of each entity.</p>
+      <img src="/Users/chitkoko/Desktop/Codingcourse/Screen Shot 2022-12-31 at 14.56.54.png" style="width:200px; height:150px">
+      <p>Symbols are also part of entities. Mathematical symbols and other scientific symbols are part of these. Her is the chart.</p>
+      <img src="/Users/chitkoko/Desktop/Codingcourse/Screen Shot 2022-12-31 at 15.03.59.png"style="width:200px; height:150px">
+      <p>Go to this <a href="https://www.w3schools.com/charsets/ref_emoji.asp">site</a> for the full emoji entity codes.</p>
+      <p>We need to use the <code>&lt;meta charset="UTF-8"&gt;</code> tag to make sure that the web page reads the characters correctly.</code></p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">
+        <video width="320" height="240" controls>
+          <source src='/Users/chitkoko/Desktop/Codingcourse/HTML Part-1.mov' type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+          <source src='/Users/chitkoko/Desktop/Codingcourse/HTML Part-2.mov' type="video/mp4">
+        </video>
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Videos</h1>
+      <p>There are 3 parts, where the contents are equally distrubited.There, you can find the basic codes for a perfect HTML website and there is CSS in the CSS page.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">
+        <video width="320" height="240" controls>
+          <source src='HTML Part-3.mov' type="video/mp4">
+        </video>
+      </p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Online Olympiad Passion Projects 2022</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Made by Nyan Lin Ko</p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
